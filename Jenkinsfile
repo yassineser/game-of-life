@@ -10,7 +10,7 @@ pipeline {
         }
         stage('') {
           steps {
-            error 'le code n\'as pas fonctionne'
+            echo 'OK'
           }
         }
       }
